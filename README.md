@@ -1,15 +1,13 @@
 # Coffee Sales Dashboard
-This repository contains my end to end Microsoft Excel project.
+This repository contains my end to end [Microsoft Excel project](https://github.com/mariannapalaia/coffee_sales_dashboard_excel/blob/main/CoffeeSalesProject.xlsx).
 
 This project showcases an in-depth data analysis of coffee sales using data gathering & transformation 
-leveraging pivot tables and pivot charts to build a dynamic & interactive Coffee Sales Dashboard. The analysis
-provides insightful information into coffee sales and customers relative to date and country.
+leveraging pivot tables and pivot charts to build a dynamic & interactive Coffee Sales Dashboard. The analysis provides insightful information into coffee sales and customers relative to date and country.
 
-Put link
 
 Below are the steps followed.
 ### Step 1 - Data Gathering
-* Populated Customers, Email and Country columns from raw data file (put link). Gathered data using
+* Populated Customers, Email and Country columns from [raw data file](https://github.com/mariannapalaia/coffee_sales_dashboard_excel/blob/main/coffeeOrdersData.xlsx). Gathered data using
 INDEX - MATCH formula.
 
    (e.g. for Customers column: =INDEX(customers!$B$1:$B$1001;MATCH(orders!C2;customers!$A$1:$A$1001;0))
